@@ -9,6 +9,10 @@ Built to defend against frontrunning and execution manipulation, zkConfide ensur
 We successfully deployed the **PredictionMarketHook** contract on **Base Sepolia** using a CREATE2 deployer, enabling deterministic and permissionless hook address generation.
 
 ### 🔗 Deployment Transaction
+
+![Screenshot 2025-03-23 211629](https://github.com/user-attachments/assets/71e10931-c221-47c0-95fa-0de925432d8b)
+
+
 **v4 Prediction Hook Contract on Base Sepolia:**  
 [0x1Bcb64DB8e9EFd85f4323d841e4fF4826f6aCAC0](https://sepolia.basescan.org/address/0x1Bcb64DB8e9EFd85f4323d841e4fF4826f6aCAC0)
 
@@ -44,12 +48,37 @@ We successfully deployed the **PredictionMarketHook** contract on **Base Sepolia
 ---
 
 
+## 🚀 Marlin Integration – TEE-Backed Relays for Privy + NilQL Wallets
+
+We use **Marlin** to relay signed transactions from zkConfide’s **ephemeral server wallets**, which are built on **Privy** and **NilQL**.
+
+Marlin provides **infrastructure inside a Trusted Execution Environment (TEE)**, allowing us to:
+
+- Execute **wallet signing, encryption, and relaying** in a secure enclave.
+- Keep betting logic, user keys, and transaction sequencing **private and tamper-proof**.
+- Prevent censorship and reduce latency in prediction market transactions.
+
+### 🧾 Example Relayed Transaction:
+
+![Screenshot 2025-03-23 211700](https://github.com/user-attachments/assets/bb0808e5-3657-4ce4-b373-f379df071aac)
+
+
+[0x909c6963b13a098d0db5634dd536720abfea6f7f3ca0a541079e94b232d32294](https://arbiscan.io/tx/0x909c6963b13a098d0db5634dd536720abfea6f7f3ca0a541079e94b232d32294)
+
+- Relayed on: **Arbitrum**
+- Originated from: zkConfide's **TEE-backed ephemeral wallet relayer**
+- Codebase:  
+  [zkConfide Privy Server Wallet + Marlin Integration](https://github.com/zkConfide-trifecta/nilQL-privy-server-wallet)
+
+---
+
+
 ![image](https://github.com/user-attachments/assets/2c02794c-fddf-4374-a593-e9d29f762b02)
 
 
 ---
 
-## 🌟 Key Features
+## 🌟 Key Features/User Flow
 
 ### ✅ Social Login with Privy & nilQL
 - Seamless onboarding using social login.
