@@ -4,8 +4,44 @@
 
 Built to defend against frontrunning and execution manipulation, zkConfide ensures all bets are executed transparently on-chain, while intent, user strategy, and outcome resolution remain private and policy-bound — safeguarding against MEV attacks, slippage abuse, and data leakage.
 
+## 🧩 Uniswap V4 Hook Advance AMM – Base Sepolia
 
+We successfully deployed the **PredictionMarketHook** contract on **Base Sepolia** using a CREATE2 deployer, enabling deterministic and permissionless hook address generation.
 
+### 🔗 Deployment Transaction
+**v4 Prediction Hook Contract on Base Sepolia:**  
+[0x1Bcb64DB8e9EFd85f4323d841e4fF4826f6aCAC0](https://sepolia.basescan.org/address/0x1Bcb64DB8e9EFd85f4323d841e4fF4826f6aCAC0)
+
+---
+
+### ⚙️ Deployment Details
+
+- **Deployer Address:**  
+  [0x2cac89ABf06DbE5d3a059517053B7144074e1CE5](https://sepolia.basescan.org/address/0x2cac89ABf06DbE5d3a059517053B7144074e1CE5)
+
+- **PoolManager Address:**  
+  [0x05E73354cFDd6745C338b50BcFDfA3Aa6fA03408](https://sepolia.basescan.org/address/0x05E73354cFDd6745C338b50BcFDfA3Aa6fA03408)
+
+- **CREATE2 Deployer Address:**  
+  [0x4e59b44847b379578588920cA78FbF26c0B4956C](https://sepolia.basescan.org/address/0x4e59b44847b379578588920cA78FbF26c0B4956C)
+
+- **Salt Used:**  
+  `0x000000000000000000000000000000000000000000000000000000000000148e`
+
+---
+
+### 🪙 Token Contracts
+
+- **USDC Token:**  
+  [0xfF404DbD652F8f292374332Fc1Ed77AD3c726311](https://sepolia.basescan.org/address/0xfF404DbD652F8f292374332Fc1Ed77AD3c726311)
+
+- **YES Token:**  
+  [0xb38aF032736d034a89e9aF849Fa15eDFAf7e8F4A](https://sepolia.basescan.org/address/0xb38aF032736d034a89e9aF849Fa15eDFAf7e8F4A)
+
+- **NO Token:**  
+  [0xF465C26a7097B81F51Ae8385265b2F4C6D9511a2](https://sepolia.basescan.org/address/0xF465C26a7097B81F51Ae8385265b2F4C6D9511a2)
+
+---
 
 
 ![image](https://github.com/user-attachments/assets/2c02794c-fddf-4374-a593-e9d29f762b02)
