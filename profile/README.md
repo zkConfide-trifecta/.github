@@ -1,6 +1,12 @@
 # 🧠 zkConfide: Private, Personalized Betting Protocol
 
-**zkConfide** is a next-gen prediction market protocol designed for privacy-preserving, personalized, and MEV-resistant betting experiences. It enables users to place on-chain bets on real-world events using USDC, with outcomes resolved via **zkProofs** and market dynamics powered by **Uniswap v4 Hooks**. Each user receives tailored betting suggestions based on risk appetite, powered by AI. All bets are executed transparently on-chain, while event resolution and payouts remain private and trust-minimized.
+**zkConfide** is a next-gen prediction market protocol designed for privacy-preserving, personalized, and MEV-resistant betting experiences. It enables users to place on-chain bets on real-world events using USDC, with outcomes resolved via **zkProofs** and market dynamics powered by **Uniswap v4 Hooks**. Each user receives tailored betting suggestions based on risk appetite, powered by AI.
+
+Built to defend against frontrunning and execution manipulation, zkConfide ensures all bets are executed transparently on-chain, while intent, user strategy, and outcome resolution remain private and policy-bound — safeguarding against MEV attacks, slippage abuse, and data leakage.
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/2c02794c-fddf-4374-a593-e9d29f762b02)
 
